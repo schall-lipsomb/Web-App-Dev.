@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Trillium Media Design</title>
+                <style>
+                    body {
+                        background-color: #E2FFFF;
+                        color: #15495E;
+                        font-family: Georgia, "Times New Roman", serif;
+                    }
+                    h1 {
+                        background-color: #008080;
+                        color: #E2FFFF;
+                        padding: 10px;
+                        line-height: 200%;
+                        font-family: "Times New Roman", serif;
+                        text-indent: 1em;
+                        text-shadow: 3px 3px 5px #000000;
+                        text-align: center;
+                    }
+                    h2 {
+                        background-color: #4DB8B8;
+                        color: #003333;
+                        padding: 8px;
+                        font-family: "Times New Roman", serif;
+                        text-align: center;
+                    }
+                    nav {
+                        font-size: larger;
+                        font-weight: bold;
+                        word-spacing: 1em;
+                    }
+                    p {
+                        font-size: 0.90em;
+                        text-indent: 3em;
+                    }
+                    ul {
+                        font-weight: bold;
+                    }
+                    nav a {
+                        text-decoration: none;
+                    }
+                    .new-services {
+                        color: #C70000;
+                    }
+                    footer {
+                        color: #666666;
+                        font-size: 0.75em;
+                        font-style: italic;
+                    }
+                    .company {
+                        font-weight: bold;
+                        font-family: serif;
+                        font-size: 1.25em;
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <h1>Trillium Media Design Services</h1>
+                </header>
+                
+                <nav>
+                    <b><a href="index.html">Home</a>&nbsp;
+                    <a href="services.html">Services</a>&nbsp;
+                    <a href="contact.html">Contact</a>&nbsp;
+                    </b>
+                </nav>
+
+                <main>
+                    <h2>New Media and Web Design</h2>
+                    <p><span class="company">Trillium Media Design</span> offers a comprehensive range of services to take your company's Web presence to the next level.</p>
+                    <h2>Meeting your Business Needs</h2>
+                    <p>Our expert designers will listen to you as they create a website that helps to promote and grow your business.</p>
+
+                    <h2>Our Services</h2>
+                    <dl>
+                        <dt><strong>Website Design</strong></dt>
+                        <dd>Whether your needs are large or small, Trillium can get you on the web!</dd>
+                        
+                        <dt><strong>E-Commerce Solutions</strong></dt>
+                        <dd>Trillium offers quick entry into the e-commerce marketplace.</dd>
+                        
+                        <dt><strong>Search Engine Optimization</strong></dt>
+                        <dd>Most people find new sites using search engines. Trillium can get your website noticed.</dd>
+                    </dl>
+
+                    <h2>Contact Trillium Media Design Today</h2>
+                    <ul>
+                        <li class="new-services">E-mail: contact@trilliummediadesign.com</li>
+                        <li class="new-services">Phone: 1-800-555-5555</li>
+                    </ul>
+                </main>
+                
+                <footer>
+                    <small><i>Copyright &copy; 2025 Trillium Media Design</i></small>
+                </footer>
+            </body>
+            </html>
+            """
