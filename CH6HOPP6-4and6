@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Samuel Hall</title>
+    { background-color: #CCCCFF; }
+    
+</head>
+
+    nav {float: left;
+          width: 90px; }
+    
+<body>
+
+    <div id="wraper">
+        <header> </header>
+        <nav> </nav>
+        <main> </main>
+        <footer> </footer>
+    </div>
+
+        { background-color:
+        #000066; }
+
+        { width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #EAEAEA; }
+    </body>
+
+    <main>
+        {margin-left: 100px; }
+
+        { margin: 0;
+            padding: 10px;
+            float: left:
+            width: 90ox;
+            padding: 10px: }
+
+        { margin-left: 100px;
+             padding: 10px;
+             background-color: #FFFFFF; }
+        { text-align: center;
+            font-style: italic;
+            background-color:#CCCCFF;
+            clear: booth; }
+
+                
+        <h2>Description</h2>
+        <p>Hi! My name is Samuel Hall. My favorite activity is playing lacross with my friends. I love playing lacross because it was the one sport I was pretty good at in highschool. I also like to watch movies with my college friends every weekend. We always choose a new movie to watch and have a great time. </p>
+
+        <h2>What Year Am I In College?</h2>
+        <p>Status: Sophomore</p>
+    </main>
+
+    <footer>
+        <small><i>Copyright &copy; 2025 Samuel C. Hall</i></small>
+    </footer>
+</body>
+</html>
