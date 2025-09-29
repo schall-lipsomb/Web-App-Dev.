@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bird Watching</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, Arial, sans-serif;
+      background-color: #00005D;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100px;
+      background-color: #227093;
+    }
+
+    h1 {
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    #wrapper {
+      display: grid;
+      grid-template-columns: 150px 1fr 30%;
+      grid-template-rows: 100px auto 50px;
+      grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+      grid-gap: 10px;
+      background-color: #b3c7e6;
+      color: #000066;
+      width: 80%;
+      margin: auto;
+      min-width: 850px;
+    }
+
+    #nav {
+      grid-area: nav;
+      letter-spacing: 0.1em;
+      font-weight: bold;
+      padding-left: 0;
+    }
+
+    #nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #nav a {
+      text-decoration: none;
+      display: block;
+      padding: 20px;
+      background-color: #b3c7e6;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    #nav a:link {
+      color: #ffffff;
+    }
+
+    #nav a:visited {
+      color: #eaeaea;
+    }
+
+    #nav a:hover {
+      background-color: #eaeaea;
+      color: #869dc7;
+    }
+
+    #content {
+      grid-area: main;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 10px 20px;
+      overflow: auto;
+    }
+
+    #aside {
+      grid-area: aside;
+      background-color: #eaeaea;
+      padding: 10px;
+    }
+
+    #footer {
+      grid-area: footer;
+      font-size: 70%;
+      text-align: center;
+      padding: 10px;
+      background-color: #869dc7;
+    }
+
+    h2 {
+      color: #869dc7;
+      font-family: arial, sans-serif;
+    }
+
+    #floatright {
+      margin: 10px;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bird Watching</h1>
+  </header>
+
+  <main>
+    <div id="wrapper">
+      <div id="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="map.html">Map</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div id="content">
+        <h2>Types of Birds</h2>
+        <p>There are so many types of birds.</p>
+        <h2>Blue Jay Section</h2>
+        <p>This section talks about how intresting Blue Jays are.</p>
+        <img src="birds.png" width="250" height="355" id="floatright" alt="Birds" />
+        <h2>Birds Are Everywhere</h2>
+        <p>Take a look at where all the cool birds live in the world.</p>
+        <h2>Panoramic View</h2>
+        <p>Birds Eye View!</p>
+        <p>Take in the scenery from the air.</p>
+      </div>
+      <div id="aside">
+        <h2>More Details</h2>
+        <p>Check out more details of other birds!</p>
+      </div>
+      <div id="footer">
+        Copyright &copy; 2025
+      </div>
+    </div>
+  </main>
+</body>
+</html>
