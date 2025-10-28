@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sam's Kayak Menu</title>
+  <style>
+
+table { border-collapse: collapse; width: 100%; max-width: 700px; margin: 1rem auto; }
+    caption { text-align: left; font-weight: bold; margin-bottom: 0.5rem; }
+    th, td { padding: 0.5rem 0.75rem; border: 1px solid #ccc; }
+
+   
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2; 
+    }
+
+    tbody tr:first-child {
+      background-color: #006; 
+      color: #EAEAEA;     
+    }
+ 
+    tbody tr:first-child th,
+    thead th { color: inherit; background: transparent; }
+
+    @media (max-width: 520px) {
+      table, caption { width: 96%; }
+      th, td { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 style="text-align:center;">Sam's Kayaks For Rent</h1>
+
+    <table aria-describedby="menu-desc">
+      <caption id="menu-desc">Kayaks, Canoes, and More</caption>
+      <thead>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Description</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Paddles</th>
+          <td>Good'ole reliable Sammy paddles</td>
+          <td>$12.99</td>
+        </tr>
+        <tr>
+          <td>Canoe</td>
+          <td>Fits two people for 2x the fun</td>
+          <td>$36.50</td>
+        </tr>
+        <tr>
+          <td>Delux Canoe</td>
+          <td>Fits three people for 3x the fun</td>
+          <td>$50.00</td>
+        </tr>
+        <tr>
+          <td>Kayak</td>
+          <td>Standard and safe Sammy Kayak</td>
+          <td>$24.99</td>
+        </tr>
+        <tr>
+          <td>Delux Kayak</td>
+          <td>Bigger Kayak that has some speed to it</td>
+          <td>$33.50</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
