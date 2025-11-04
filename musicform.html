@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Survey</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; padding: 1rem; }
+    label { display: inline-block; width: 140px; vertical-align: top; }
+    .field { margin: 0.4rem 0; }
+    fieldset { margin: 0.6rem 0; padding: 0.6rem; }
+  </style>
+</head>
+<body>
+
+  <h1>Music Listening Survey</h1>
+
+  <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+
+    <div class="field">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <div class="field">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com">
+    </div>
+
+    <div class="field">
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" cols="60" rows="3" placeholder="Tell us what you like about music..."></textarea>
+    </div>
+
+    <fieldset>
+      <legend>When do you usually listen?</legend>
+      <div class="field">
+        <label></label>
+        <label><input type="radio" name="listen_time" value="Morning"> Morning</label>
+        <label><input type="radio" name="listen_time" value="Afternoon"> Afternoon</label>
+        <label><input type="radio" name="listen_time" value="Evening"> Evening</label>
+        <label><input type="radio" name="listen_time" value="Night"> Night</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Genres you enjoy</legend>
+      <div class="field">
+        <label></label>
+        <label><input type="checkbox" name="genre" value="rock"> Rock</label>
+        <label><input type="checkbox" name="genre" value="pop"> Pop</label>
+        <label><input type="checkbox" name="genre" value="jazz"> Jazz</label>
+        <label><input type="checkbox" name="genre" value="classical"> Classical</label>
+        <label><input type="checkbox" name="genre" value="electronic"> Electronic</label>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="platform">Where do you discover music?</label>
+      <select id="platform" name="platform" size="3">
+        <option value="spotify">Spotify</option>
+        <option value="youtube">YouTube</option>
+        <option value="radio">Radio</option>
+        <option value="bandcamp">Bandcamp</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="listen_date">Listening date:</label>
+      <input type="date" id="listen_date" name="listen_date">
+    </div>
+
+    <div class="field">
+      <label></label>
+      <button type="submit">Submit Survey</button>
+      <button type="reset">Reset</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
