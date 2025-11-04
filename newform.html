@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam's Form</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.5; padding: 1rem; }
+    label { display: inline-block; width: 140px; vertical-align: top; }
+    .field { margin: 0.35rem 0; }
+    fieldset { margin-top: 0.5rem; padding: 0.75rem; }
+  </style>
+</head>
+<body>
+
+  <h1>The Sam Signup / Survey Form</h1>
+
+  <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+
+    <div class="field">
+      <label for="username">User name:</label>
+      <input type="text" id="username" name="username" maxlength="30" placeholder="Enter your name">
+    </div>
+
+    <div class="field">
+      <label for="pword">Password:</label>
+      <input type="password" id="pword" name="pword">
+    </div>
+
+    <fieldset>
+      <legend>Vote: Favorite Day of the Week to Kayak</legend>
+      <div class="field"><label></label>
+        <label><input type="radio" name="favorite_day" value="Monday"> Monday</label>
+        <label><input type="radio" name="favorite_day" value="Tuesday"> Tuesday</label>
+        <label><input type="radio" name="favorite_day" value="Wednesday"> Wednesday</label>
+        <label><input type="radio" name="favorite_day" value="Thursday"> Thursday</label>
+        <label><input type="radio" name="favorite_day" value="Friday"> Friday</label>
+        <label><input type="radio" name="favorite_day" value="Saturday"> Saturday</label>
+        <label><input type="radio" name="favorite_day" value="Sunday"> Sunday</label>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="favorite_social">Favorite social site for kayaking:</label>
+      <select id="favorite_social" name="favorite_social">
+        <option value="">-- Please choose --</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Instagram">Instagram</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="TikTok">TikTok</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Shipping Address</legend>
+      <div class="field">
+        <label for="address1">Address line 1:</label>
+        <input type="text" id="address1" name="address1">
+      </div>
+      <div class="field">
+        <label for="address2">Address line 2:</label>
+        <input type="text" id="address2" name="address2">
+      </div>
+      <div class="field">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+      </div>
+      <div class="field">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+      </div>
+      <div class="field">
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip">
+      </div>
+    </fieldset>
+
+    <input type="hidden" name="userid" value="">
+
+    <div class="field">
+      <label></label>
+      <input type="image" src="signup.gif" alt="Sign up" name="signup">
+
+      <noscript>
+        <input type="submit" value="Sign up">
+      </noscript>
+    </div>
+
+    <div class="field">
+      <label></label>
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
